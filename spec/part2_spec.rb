@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../lib/ruby_intro.rb'
+require_relative '../assignment/ruby_intro.rb'
 
 describe '#hello' do
   it 'should be defined' do
@@ -14,6 +14,7 @@ describe '#hello' do
     expect(hello('Mr. Ilson')).to eq('Hello, Mr. Ilson'), 'Incorrect results for input: "Mr. Ilson"'
   end
 end
+
 
 describe '#starts_with_consonant?' do
   it 'should be defined' do
